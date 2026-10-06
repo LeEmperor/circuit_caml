@@ -1,4 +1,5 @@
 (executable
  (public_name circuit_caml)
  (name main)
- (libraries circuit_caml))
+ (libraries circuit_caml core)
+)
