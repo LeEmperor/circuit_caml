@@ -28,7 +28,7 @@ module Component = struct
   
   (* This returns a Component.t, which itself contains a *)
   (*let create ~name ~elem_t ~kind : t = *)
-  let create ~name : t = 
+  let create ~(name : string) : t = 
   {
       name = name 
       ; kind = Kind.Resistor
